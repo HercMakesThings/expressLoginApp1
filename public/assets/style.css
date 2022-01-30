@@ -1,0 +1,39 @@
+body, html{
+    margin: 0;
+    background-color: lavender;
+}
+
+/********************************************************************/
+/********************************************************************/
+/******************GENERAL STYLINGS AND MODIFIERS********************/
+/********************************************************************/
+/********************************************************************/
+
+.div--spacerbot{
+    padding: 15px;
+    margin-bottom: 10px;
+    font-size: medium;
+}
+
+.sec--center{
+    text-align: center;
+
+}
+
+.sec--column{
+    width: 33%;
+}
+
+.link--button{
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+    border-radius: 8px;
+    background-color: aqua;
+    color: white;
+}
+
+.link--button:hover{
+    background-color: cadetblue;
+    /* color:darkmagenta; */
+}

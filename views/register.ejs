@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/public/assets/style.css">
+    <title>Register Your Account</title>
+</head>
+<body>
+
+    <h1>Register An Account</h1>
+
+    <section class="sec--column">
+        <form action="/register" method="POST">
+            <fieldset>
+                <div class="div--spacerbot">
+                    <label for="name">Username</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="div--spacerbot">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required>
+                </div> 
+                <div class="div--spacerbot">
+                    <label for="password">Password</label>
+                    <input type="text" id="password" name="password" required>
+                </div> 
+                <button class="link--button" type="submit">Register Yo Acc</button>
+            </fieldset> 
+        </form>
+        <a class="link--button" href="/login">Login</a>
+    </section>
+    
+</body>
+</html>
